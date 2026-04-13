@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 1587 1122" preserveAspectRatio="xMidYMid meet">
+  <defs>
+  <!-- Tường ngoài: gạch chéo đôi (cross-hatch) — chuẩn CAD kiến trúc -->
+  <pattern id="hatch-ext" patternUnits="userSpaceOnUse" width="5" height="5">
+    <line x1="0" y1="0" x2="5" y2="5" stroke="#000" stroke-width="0.6"/>
+    <line x1="5" y1="0" x2="0" y2="5" stroke="#000" stroke-width="0.6"/>
+  </pattern>
+  <!-- Tường trong: gạch chéo đơn — mảnh hơn -->
+  <pattern id="hatch-int" patternUnits="userSpaceOnUse" width="4" height="4">
+    <line x1="0" y1="0" x2="4" y2="4" stroke="#555" stroke-width="0.4"/>
+  </pattern>
+  <!-- Tường tô đặc (cho cột / tường chịu lực) -->
+  <pattern id="hatch-solid" patternUnits="userSpaceOnUse" width="3" height="3">
+    <rect width="3" height="3" fill="#333"/>
+  </pattern>
+</defs>
+  <rect width="1587" height="1122" fill="white"/>
+  <!-- LẦU 2 | 5m×20m | Scale 1/61 | A3 landscape | BMT Decor -->
+  <line x1="226.11360000000005" y1="343.33000000000004" x2="226.11360000000005" y2="730.6700000000001" stroke="#999999" stroke-width="0.4" stroke-dasharray="8 4 2 4"/>
+  <circle cx="226.11360000000005" cy="730.6700000000001" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="226.11360000000005" y="735.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">1</text>
+  <circle cx="226.11360000000005" cy="343.33000000000004" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="226.11360000000005" y="348.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">1</text>
+  <line x1="479.36176000000006" y1="343.33000000000004" x2="479.36176000000006" y2="730.6700000000001" stroke="#999999" stroke-width="0.4" stroke-dasharray="8 4 2 4"/>
+  <circle cx="479.36176000000006" cy="730.6700000000001" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="479.36176000000006" y="735.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">2</text>
+  <circle cx="479.36176000000006" cy="343.33000000000004" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="479.36176000000006" y="348.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">2</text>
+  <line x1="720.31632" y1="343.33000000000004" x2="720.31632" y2="730.6700000000001" stroke="#999999" stroke-width="0.4" stroke-dasharray="8 4 2 4"/>
+  <circle cx="720.31632" cy="730.6700000000001" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="720.31632" y="735.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">3</text>
+  <circle cx="720.31632" cy="343.33000000000004" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="720.31632" y="348.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">3</text>
+  <line x1="948.9772800000001" y1="343.33000000000004" x2="948.9772800000001" y2="730.6700000000001" stroke="#999999" stroke-width="0.4" stroke-dasharray="8 4 2 4"/>
+  <circle cx="948.9772800000001" cy="730.6700000000001" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="948.9772800000001" y="735.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">4</text>
+  <circle cx="948.9772800000001" cy="343.33000000000004" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="948.9772800000001" y="348.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">4</text>
+  <line x1="1079.28944" y1="343.33000000000004" x2="1079.28944" y2="730.6700000000001" stroke="#999999" stroke-width="0.4" stroke-dasharray="8 4 2 4"/>
+  <circle cx="1079.28944" cy="730.6700000000001" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="1079.28944" y="735.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">5</text>
+  <circle cx="1079.28944" cy="343.33000000000004" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="1079.28944" y="348.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">5</text>
+  <line x1="1443.1799999999998" y1="343.33000000000004" x2="1443.1799999999998" y2="730.6700000000001" stroke="#999999" stroke-width="0.4" stroke-dasharray="8 4 2 4"/>
+  <circle cx="1443.1799999999998" cy="730.6700000000001" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="1443.1799999999998" y="735.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">6</text>
+  <circle cx="1443.1799999999998" cy="343.33000000000004" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="1443.1799999999998" y="348.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">6</text>
+  <line x1="173.82000000000005" y1="383.33000000000004" x2="1483.1799999999998" y2="383.33000000000004" stroke="#999999" stroke-width="0.4" stroke-dasharray="8 4 2 4"/>
+  <circle cx="173.82000000000005" cy="383.33000000000004" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="173.82000000000005" y="388.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">A</text>
+  <circle cx="1483.1799999999998" cy="383.33000000000004" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="1483.1799999999998" y="388.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">A</text>
+  <line x1="173.82000000000005" y1="690.6700000000001" x2="1483.1799999999998" y2="690.6700000000001" stroke="#999999" stroke-width="0.4" stroke-dasharray="8 4 2 4"/>
+  <circle cx="173.82000000000005" cy="690.6700000000001" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="173.82000000000005" y="695.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">B</text>
+  <circle cx="1483.1799999999998" cy="690.6700000000001" r="14" fill="white" stroke="#000000" stroke-width="1.2"/>
+  <text x="1483.1799999999998" y="695.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold">B</text>
+  <rect x="219.96680000000003" y="377.18320000000006" width="12.2936" height="12.2936" fill="#000000" stroke="none"/>
+  <rect x="219.96680000000003" y="684.5232000000001" width="12.2936" height="12.2936" fill="#000000" stroke="none"/>
+  <rect x="473.2149600000001" y="377.18320000000006" width="12.2936" height="12.2936" fill="#000000" stroke="none"/>
+  <rect x="473.2149600000001" y="684.5232000000001" width="12.2936" height="12.2936" fill="#000000" stroke="none"/>
+  <rect x="714.16952" y="377.18320000000006" width="12.2936" height="12.2936" fill="#000000" stroke="none"/>
+  <rect x="714.16952" y="684.5232000000001" width="12.2936" height="12.2936" fill="#000000" stroke="none"/>
+  <rect x="942.8304800000001" y="377.18320000000006" width="12.2936" height="12.2936" fill="#000000" stroke="none"/>
+  <rect x="942.8304800000001" y="684.5232000000001" width="12.2936" height="12.2936" fill="#000000" stroke="none"/>
+  <rect x="1073.14264" y="377.18320000000006" width="12.2936" height="12.2936" fill="#000000" stroke="none"/>
+  <rect x="1073.14264" y="684.5232000000001" width="12.2936" height="12.2936" fill="#000000" stroke="none"/>
+  <rect x="1437.0331999999999" y="377.18320000000006" width="12.2936" height="12.2936" fill="#000000" stroke="none"/>
+  <rect x="1437.0331999999999" y="684.5232000000001" width="12.2936" height="12.2936" fill="#000000" stroke="none"/>
+  <rect x="226.11360000000005" y="395.62360000000007" width="245.87199999999999" height="282.7528" fill="white" stroke="none"/>
+  <rect x="309.04960000000005" y="412.8346400000001" width="80" height="95" fill="white" stroke="#000000" stroke-width="0.8"/>
+  <rect x="309.04960000000005" y="412.8346400000001" width="80" height="6.65" fill="#c0c0c0" stroke="#000000" stroke-width="0.6"/>
+  <rect x="312.24960000000004" y="422.48464000000007" width="28.799999999999997" height="17.099999999999998" rx="4" fill="#e8e8e8" stroke="#000000" stroke-width="0.5"/>
+  <line x1="326.6496" y1="423.48464000000007" x2="326.6496" y2="438.5846400000001" stroke="#000000" stroke-width="0.25"/>
+  <rect x="357.04960000000005" y="422.48464000000007" width="28.799999999999997" height="17.099999999999998" rx="4" fill="#e8e8e8" stroke="#000000" stroke-width="0.5"/>
+  <line x1="371.4496000000001" y1="423.48464000000007" x2="371.4496000000001" y2="438.5846400000001" stroke="#000000" stroke-width="0.25"/>
+  <line x1="311.04960000000005" y1="450.8346400000001" x2="387.04960000000005" y2="450.8346400000001" stroke="#000000" stroke-width="0.4"/>
+  <path d="M 313.04960000000005 450.8346400000001 Q 349.04960000000005 456.8346400000001 385.04960000000005 450.8346400000001" fill="none" stroke="#000000" stroke-width="0.3"/>
+  <line x1="349.04960000000005" y1="453.8346400000001" x2="349.04960000000005" y2="505.8346400000001" stroke="#000000" stroke-width="0.2" stroke-dasharray="3 3"/>
+  <rect x="290.04960000000005" y="412.8346400000001" width="16" height="16" fill="white" stroke="#000000" stroke-width="0.6"/>
+  <circle cx="298.04960000000005" cy="420.8346400000001" r="3" fill="none" stroke="#000000" stroke-width="0.35"/>
+  <rect x="392.04960000000005" y="412.8346400000001" width="16" height="16" fill="white" stroke="#000000" stroke-width="0.6"/>
+  <circle cx="400.04960000000005" cy="420.8346400000001" r="3" fill="none" stroke="#000000" stroke-width="0.35"/>
+  <rect x="243.32464000000004" y="639.1653600000001" width="211.44992" height="22" fill="white" stroke="#000000" stroke-width="0.7"/>
+  <line x1="244.32464000000004" y1="640.1653600000001" x2="284.61462400000005" y2="660.1653600000001" stroke="#000000" stroke-width="0.3"/>
+  <line x1="284.61462400000005" y1="640.1653600000001" x2="244.32464000000004" y2="660.1653600000001" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="262.46963200000005" cy="650.1653600000001" r="1" fill="#000000" stroke="none"/>
+  <circle cx="266.46963200000005" cy="650.1653600000001" r="1" fill="#000000" stroke="none"/>
+  <line x1="285.61462400000005" y1="639.1653600000001" x2="285.61462400000005" y2="661.1653600000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="286.61462400000005" y1="640.1653600000001" x2="326.90460800000005" y2="660.1653600000001" stroke="#000000" stroke-width="0.3"/>
+  <line x1="326.90460800000005" y1="640.1653600000001" x2="286.61462400000005" y2="660.1653600000001" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="304.75961600000005" cy="650.1653600000001" r="1" fill="#000000" stroke="none"/>
+  <circle cx="308.75961600000005" cy="650.1653600000001" r="1" fill="#000000" stroke="none"/>
+  <line x1="327.90460800000005" y1="639.1653600000001" x2="327.90460800000005" y2="661.1653600000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="328.90460800000005" y1="640.1653600000001" x2="369.19459200000006" y2="660.1653600000001" stroke="#000000" stroke-width="0.3"/>
+  <line x1="369.19459200000006" y1="640.1653600000001" x2="328.90460800000005" y2="660.1653600000001" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="347.04960000000005" cy="650.1653600000001" r="1" fill="#000000" stroke="none"/>
+  <circle cx="351.04960000000005" cy="650.1653600000001" r="1" fill="#000000" stroke="none"/>
+  <line x1="370.19459200000006" y1="639.1653600000001" x2="370.19459200000006" y2="661.1653600000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="371.19459200000006" y1="640.1653600000001" x2="411.48457600000006" y2="660.1653600000001" stroke="#000000" stroke-width="0.3"/>
+  <line x1="411.48457600000006" y1="640.1653600000001" x2="371.19459200000006" y2="660.1653600000001" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="389.33958400000006" cy="650.1653600000001" r="1" fill="#000000" stroke="none"/>
+  <circle cx="393.33958400000006" cy="650.1653600000001" r="1" fill="#000000" stroke="none"/>
+  <line x1="412.48457600000006" y1="639.1653600000001" x2="412.48457600000006" y2="661.1653600000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="413.48457600000006" y1="640.1653600000001" x2="453.77456000000006" y2="660.1653600000001" stroke="#000000" stroke-width="0.3"/>
+  <line x1="453.77456000000006" y1="640.1653600000001" x2="413.48457600000006" y2="660.1653600000001" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="431.62956800000006" cy="650.1653600000001" r="1" fill="#000000" stroke="none"/>
+  <circle cx="435.62956800000006" cy="650.1653600000001" r="1" fill="#000000" stroke="none"/>
+  <rect x="243.32464000000004" y="615.1653600000001" width="48" height="14" fill="white" stroke="#000000" stroke-width="0.6"/>
+  <line x1="245.32464000000004" y1="622.1653600000001" x2="289.32464000000004" y2="622.1653600000001" stroke="#000000" stroke-width="0.25"/>
+  <circle cx="267.32464000000004" cy="638.1653600000001" r="6" fill="none" stroke="#000000" stroke-width="0.5"/>
+  <path d="M 261.32464000000004 639.1653600000001 A 8 8 0 0 0 273.32464000000004 639.1653600000001" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <text x="349.04960000000005" y="535" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="9" fill="#000" font-weight="bold">Phòng ngủ 4</text>
+  <text x="349.04960000000005" y="547" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7.5" fill="#333">18.4m²</text>
+  <rect x="479.36176000000006" y="395.62360000000007" width="233.5784" height="282.7528" fill="white" stroke="none"/>
+  <rect x="556.15096" y="411.97408800000005" width="80" height="95" fill="white" stroke="#000000" stroke-width="0.8"/>
+  <rect x="556.15096" y="411.97408800000005" width="80" height="6.65" fill="#c0c0c0" stroke="#000000" stroke-width="0.6"/>
+  <rect x="559.3509600000001" y="421.62408800000003" width="28.799999999999997" height="17.099999999999998" rx="4" fill="#e8e8e8" stroke="#000000" stroke-width="0.5"/>
+  <line x1="573.7509600000001" y1="422.62408800000003" x2="573.7509600000001" y2="437.72408800000005" stroke="#000000" stroke-width="0.25"/>
+  <rect x="604.15096" y="421.62408800000003" width="28.799999999999997" height="17.099999999999998" rx="4" fill="#e8e8e8" stroke="#000000" stroke-width="0.5"/>
+  <line x1="618.55096" y1="422.62408800000003" x2="618.55096" y2="437.72408800000005" stroke="#000000" stroke-width="0.25"/>
+  <line x1="558.15096" y1="449.97408800000005" x2="634.15096" y2="449.97408800000005" stroke="#000000" stroke-width="0.4"/>
+  <path d="M 560.15096 449.97408800000005 Q 596.15096 455.97408800000005 632.15096 449.97408800000005" fill="none" stroke="#000000" stroke-width="0.3"/>
+  <line x1="596.15096" y1="452.97408800000005" x2="596.15096" y2="504.97408800000005" stroke="#000000" stroke-width="0.2" stroke-dasharray="3 3"/>
+  <rect x="537.15096" y="411.97408800000005" width="16" height="16" fill="white" stroke="#000000" stroke-width="0.6"/>
+  <circle cx="545.15096" cy="419.97408800000005" r="3" fill="none" stroke="#000000" stroke-width="0.35"/>
+  <rect x="639.15096" y="411.97408800000005" width="16" height="16" fill="white" stroke="#000000" stroke-width="0.6"/>
+  <circle cx="647.15096" cy="419.97408800000005" r="3" fill="none" stroke="#000000" stroke-width="0.35"/>
+  <rect x="495.71224800000005" y="640.0259120000001" width="200.877424" height="22" fill="white" stroke="#000000" stroke-width="0.7"/>
+  <line x1="496.71224800000005" y1="641.0259120000001" x2="534.8877328000001" y2="661.0259120000001" stroke="#000000" stroke-width="0.3"/>
+  <line x1="534.8877328000001" y1="641.0259120000001" x2="496.71224800000005" y2="661.0259120000001" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="513.7999904000001" cy="651.0259120000001" r="1" fill="#000000" stroke="none"/>
+  <circle cx="517.7999904000001" cy="651.0259120000001" r="1" fill="#000000" stroke="none"/>
+  <line x1="535.8877328000001" y1="640.0259120000001" x2="535.8877328000001" y2="662.0259120000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="536.8877328000001" y1="641.0259120000001" x2="575.0632176000001" y2="661.0259120000001" stroke="#000000" stroke-width="0.3"/>
+  <line x1="575.0632176000001" y1="641.0259120000001" x2="536.8877328000001" y2="661.0259120000001" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="553.9754752000001" cy="651.0259120000001" r="1" fill="#000000" stroke="none"/>
+  <circle cx="557.9754752000001" cy="651.0259120000001" r="1" fill="#000000" stroke="none"/>
+  <line x1="576.0632176" y1="640.0259120000001" x2="576.0632176" y2="662.0259120000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="577.0632176" y1="641.0259120000001" x2="615.2387024000001" y2="661.0259120000001" stroke="#000000" stroke-width="0.3"/>
+  <line x1="615.2387024000001" y1="641.0259120000001" x2="577.0632176" y2="661.0259120000001" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="594.15096" cy="651.0259120000001" r="1" fill="#000000" stroke="none"/>
+  <circle cx="598.15096" cy="651.0259120000001" r="1" fill="#000000" stroke="none"/>
+  <line x1="616.2387024000001" y1="640.0259120000001" x2="616.2387024000001" y2="662.0259120000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="617.2387024000001" y1="641.0259120000001" x2="655.4141872000001" y2="661.0259120000001" stroke="#000000" stroke-width="0.3"/>
+  <line x1="655.4141872000001" y1="641.0259120000001" x2="617.2387024000001" y2="661.0259120000001" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="634.3264448000001" cy="651.0259120000001" r="1" fill="#000000" stroke="none"/>
+  <circle cx="638.3264448000001" cy="651.0259120000001" r="1" fill="#000000" stroke="none"/>
+  <line x1="656.4141872" y1="640.0259120000001" x2="656.4141872" y2="662.0259120000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="657.4141872" y1="641.0259120000001" x2="695.5896720000001" y2="661.0259120000001" stroke="#000000" stroke-width="0.3"/>
+  <line x1="695.5896720000001" y1="641.0259120000001" x2="657.4141872" y2="661.0259120000001" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="674.5019296" cy="651.0259120000001" r="1" fill="#000000" stroke="none"/>
+  <circle cx="678.5019296" cy="651.0259120000001" r="1" fill="#000000" stroke="none"/>
+  <rect x="495.71224800000005" y="616.0259120000001" width="48" height="14" fill="white" stroke="#000000" stroke-width="0.6"/>
+  <line x1="497.71224800000005" y1="623.0259120000001" x2="541.712248" y2="623.0259120000001" stroke="#000000" stroke-width="0.25"/>
+  <circle cx="519.712248" cy="639.0259120000001" r="6" fill="none" stroke="#000000" stroke-width="0.5"/>
+  <path d="M 513.712248 640.0259120000001 A 8 8 0 0 0 525.712248 640.0259120000001" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <text x="596.15096" y="535" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="9" fill="#000" font-weight="bold">Phòng ngủ 5</text>
+  <text x="596.15096" y="547" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7.5" fill="#333">17.5m²</text>
+  <rect x="720.31632" y="395.62360000000007" width="221.2848" height="282.7528" fill="white" stroke="none"/>
+  <rect x="790.95872" y="411.11353600000007" width="80" height="95" fill="white" stroke="#000000" stroke-width="0.8"/>
+  <rect x="790.95872" y="411.11353600000007" width="80" height="6.65" fill="#c0c0c0" stroke="#000000" stroke-width="0.6"/>
+  <rect x="794.15872" y="420.76353600000004" width="28.799999999999997" height="17.099999999999998" rx="4" fill="#e8e8e8" stroke="#000000" stroke-width="0.5"/>
+  <line x1="808.55872" y1="421.76353600000004" x2="808.55872" y2="436.86353600000007" stroke="#000000" stroke-width="0.25"/>
+  <rect x="838.95872" y="420.76353600000004" width="28.799999999999997" height="17.099999999999998" rx="4" fill="#e8e8e8" stroke="#000000" stroke-width="0.5"/>
+  <line x1="853.35872" y1="421.76353600000004" x2="853.35872" y2="436.86353600000007" stroke="#000000" stroke-width="0.25"/>
+  <line x1="792.95872" y1="449.11353600000007" x2="868.95872" y2="449.11353600000007" stroke="#000000" stroke-width="0.4"/>
+  <path d="M 794.95872 449.11353600000007 Q 830.95872 455.11353600000007 866.95872 449.11353600000007" fill="none" stroke="#000000" stroke-width="0.3"/>
+  <line x1="830.95872" y1="452.11353600000007" x2="830.95872" y2="504.11353600000007" stroke="#000000" stroke-width="0.2" stroke-dasharray="3 3"/>
+  <rect x="771.95872" y="411.11353600000007" width="16" height="16" fill="white" stroke="#000000" stroke-width="0.6"/>
+  <circle cx="779.95872" cy="419.11353600000007" r="3" fill="none" stroke="#000000" stroke-width="0.35"/>
+  <rect x="873.95872" y="411.11353600000007" width="16" height="16" fill="white" stroke="#000000" stroke-width="0.6"/>
+  <circle cx="881.95872" cy="419.11353600000007" r="3" fill="none" stroke="#000000" stroke-width="0.35"/>
+  <rect x="735.8062560000001" y="640.886464" width="190.304928" height="22" fill="white" stroke="#000000" stroke-width="0.7"/>
+  <line x1="736.8062560000001" y1="641.886464" x2="772.8672416" y2="661.886464" stroke="#000000" stroke-width="0.3"/>
+  <line x1="772.8672416" y1="641.886464" x2="736.8062560000001" y2="661.886464" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="752.8367488000001" cy="651.886464" r="1" fill="#000000" stroke="none"/>
+  <circle cx="756.8367488000001" cy="651.886464" r="1" fill="#000000" stroke="none"/>
+  <line x1="773.8672416" y1="640.886464" x2="773.8672416" y2="662.886464" stroke="#000000" stroke-width="0.5"/>
+  <line x1="774.8672416" y1="641.886464" x2="810.9282272" y2="661.886464" stroke="#000000" stroke-width="0.3"/>
+  <line x1="810.9282272" y1="641.886464" x2="774.8672416" y2="661.886464" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="790.8977344000001" cy="651.886464" r="1" fill="#000000" stroke="none"/>
+  <circle cx="794.8977344000001" cy="651.886464" r="1" fill="#000000" stroke="none"/>
+  <line x1="811.9282272" y1="640.886464" x2="811.9282272" y2="662.886464" stroke="#000000" stroke-width="0.5"/>
+  <line x1="812.9282272" y1="641.886464" x2="848.9892128" y2="661.886464" stroke="#000000" stroke-width="0.3"/>
+  <line x1="848.9892128" y1="641.886464" x2="812.9282272" y2="661.886464" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="828.9587200000001" cy="651.886464" r="1" fill="#000000" stroke="none"/>
+  <circle cx="832.9587200000001" cy="651.886464" r="1" fill="#000000" stroke="none"/>
+  <line x1="849.9892128" y1="640.886464" x2="849.9892128" y2="662.886464" stroke="#000000" stroke-width="0.5"/>
+  <line x1="850.9892128" y1="641.886464" x2="887.0501984" y2="661.886464" stroke="#000000" stroke-width="0.3"/>
+  <line x1="887.0501984" y1="641.886464" x2="850.9892128" y2="661.886464" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="867.0197056000001" cy="651.886464" r="1" fill="#000000" stroke="none"/>
+  <circle cx="871.0197056000001" cy="651.886464" r="1" fill="#000000" stroke="none"/>
+  <line x1="888.0501984" y1="640.886464" x2="888.0501984" y2="662.886464" stroke="#000000" stroke-width="0.5"/>
+  <line x1="889.0501984" y1="641.886464" x2="925.111184" y2="661.886464" stroke="#000000" stroke-width="0.3"/>
+  <line x1="925.111184" y1="641.886464" x2="889.0501984" y2="661.886464" stroke="#000000" stroke-width="0.3"/>
+  <circle cx="905.0806912" cy="651.886464" r="1" fill="#000000" stroke="none"/>
+  <circle cx="909.0806912" cy="651.886464" r="1" fill="#000000" stroke="none"/>
+  <rect x="735.8062560000001" y="616.886464" width="48" height="14" fill="white" stroke="#000000" stroke-width="0.6"/>
+  <line x1="737.8062560000001" y1="623.886464" x2="781.8062560000001" y2="623.886464" stroke="#000000" stroke-width="0.25"/>
+  <circle cx="759.8062560000001" cy="639.886464" r="6" fill="none" stroke="#000000" stroke-width="0.5"/>
+  <path d="M 753.8062560000001 640.886464 A 8 8 0 0 0 765.8062560000001 640.886464" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <text x="830.95872" y="535" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="9" fill="#000" font-weight="bold">Phòng ngủ 6</text>
+  <text x="830.95872" y="547" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7.5" fill="#333">16.6m²</text>
+  <rect x="948.9772800000001" y="395.62360000000007" width="122.93599999999999" height="282.7528" fill="white" stroke="none"/>
+  <rect x="957.5828" y="404.2291200000001" width="38" height="22" rx="1" fill="white" stroke="#000000" stroke-width="0.7"/>
+  <ellipse cx="976.5828" cy="416.3291200000001" rx="12.920000000000002" ry="7.48" fill="none" stroke="#000000" stroke-width="0.5"/>
+  <circle cx="976.5828" cy="416.3291200000001" r="1.5" fill="#000000" stroke="none"/>
+  <circle cx="976.5828" cy="407.5291200000001" r="2.2" fill="#000000" stroke="none"/>
+  <line x1="976.5828" y1="409.7291200000001" x2="976.5828" y2="411.2691200000001" stroke="#000000" stroke-width="0.6"/>
+  <rect x="963.2828000000001" y="397.62912000000006" width="26.599999999999998" height="5.5" fill="none" stroke="#000000" stroke-width="0.3" stroke-dasharray="2 1"/>
+  <rect x="1036.9077599999998" y="629.77088" width="22.8" height="8.8" rx="2" fill="white" stroke="#000000" stroke-width="0.7"/>
+  <circle cx="1045.9077599999998" cy="634.17088" r="1.8" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <circle cx="1050.70776" cy="634.17088" r="1.8" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <ellipse cx="1048.30776" cy="654.57088" rx="13.8" ry="14.399999999999999" fill="white" stroke="#000000" stroke-width="0.7"/>
+  <ellipse cx="1048.30776" cy="653.77088" rx="10.200000000000001" ry="10.8" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <line x1="1040.80776" y1="639.57088" x2="1055.80776" y2="639.57088" stroke="#000000" stroke-width="0.4"/>
+  <rect x="957.5828" y="431.2291200000001" width="40.1754848" height="72" rx="4" fill="white" stroke="#000000" stroke-width="0.8"/>
+  <rect x="960.5828" y="434.2291200000001" width="34.1754848" height="66" rx="3" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <circle cx="977.6705424" cy="493.2291200000001" r="2.5" fill="none" stroke="#000000" stroke-width="0.5"/>
+  <circle cx="977.6705424" cy="493.2291200000001" r="0.8" fill="#000000" stroke="none"/>
+  <circle cx="971.64421968" cy="439.2291200000001" r="2.5" fill="none" stroke="#000000" stroke-width="0.5"/>
+  <circle cx="983.69686512" cy="439.2291200000001" r="2.5" fill="none" stroke="#000000" stroke-width="0.5"/>
+  <line x1="995.7582848000001" y1="452.8291200000001" x2="995.7582848000001" y2="481.62912000000006" stroke="#000000" stroke-width="0.6"/>
+  <rect x="1007.44528" y="573.831264" width="6" height="6" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <line x1="1007.44528" y1="573.831264" x2="1013.44528" y2="579.831264" stroke="#000000" stroke-width="0.3"/>
+  <line x1="1013.44528" y1="573.831264" x2="1007.44528" y2="579.831264" stroke="#000000" stroke-width="0.3"/>
+  <text x="1010.44528" y="535" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="9" fill="#000" font-weight="bold">WC 2</text>
+  <text x="1010.44528" y="547" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7.5" fill="#333">9.2m²</text>
+  <path d="M 960.9772800000001 664.3764000000001 L 954.9772800000001 670.3764000000001 L 966.9772800000001 670.3764000000001 Z" fill="#000" stroke="none"/>
+  <text x="969.9772800000001" y="672.3764000000001" font-family="'Arial Narrow', Arial, sans-serif" font-size="8" fill="#000">+0.050</text>
+  <rect x="1079.28944" y="395.62360000000007" width="351.59695999999997" height="282.7528" fill="white" stroke="none"/>
+  <rect x="1099.082136" y="415.41629600000005" width="38" height="22" rx="1" fill="white" stroke="#000000" stroke-width="0.7"/>
+  <ellipse cx="1118.082136" cy="427.51629600000007" rx="12.920000000000002" ry="7.48" fill="none" stroke="#000000" stroke-width="0.5"/>
+  <circle cx="1118.082136" cy="427.51629600000007" r="1.5" fill="#000000" stroke="none"/>
+  <circle cx="1118.082136" cy="418.71629600000006" r="2.2" fill="#000000" stroke="none"/>
+  <line x1="1118.082136" y1="420.91629600000005" x2="1118.082136" y2="422.45629600000007" stroke="#000000" stroke-width="0.6"/>
+  <rect x="1104.782136" y="408.816296" width="26.599999999999998" height="5.5" fill="none" stroke="#000000" stroke-width="0.3" stroke-dasharray="2 1"/>
+  <rect x="1384.6937039999998" y="618.583704" width="22.8" height="8.8" rx="2" fill="white" stroke="#000000" stroke-width="0.7"/>
+  <circle cx="1393.6937039999998" cy="622.983704" r="1.8" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <circle cx="1398.493704" cy="622.983704" r="1.8" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <ellipse cx="1396.093704" cy="643.383704" rx="13.8" ry="14.399999999999999" fill="white" stroke="#000000" stroke-width="0.7"/>
+  <ellipse cx="1396.093704" cy="642.583704" rx="10.200000000000001" ry="10.8" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <line x1="1388.593704" y1="628.383704" x2="1403.593704" y2="628.383704" stroke="#000000" stroke-width="0.4"/>
+  <rect x="1099.082136" y="442.41629600000005" width="42" height="72" rx="4" fill="white" stroke="#000000" stroke-width="0.8"/>
+  <rect x="1102.082136" y="445.41629600000005" width="36" height="66" rx="3" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <circle cx="1120.082136" cy="504.4162960000001" r="2.5" fill="none" stroke="#000000" stroke-width="0.5"/>
+  <circle cx="1120.082136" cy="504.4162960000001" r="0.8" fill="#000000" stroke="none"/>
+  <circle cx="1113.782136" cy="450.41629600000005" r="2.5" fill="none" stroke="#000000" stroke-width="0.5"/>
+  <circle cx="1126.382136" cy="450.41629600000005" r="2.5" fill="none" stroke="#000000" stroke-width="0.5"/>
+  <line x1="1139.082136" y1="464.01629600000007" x2="1139.082136" y2="492.816296" stroke="#000000" stroke-width="0.6"/>
+  <rect x="1252.08792" y="570.4751112" width="6" height="6" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <line x1="1252.08792" y1="570.4751112" x2="1258.08792" y2="576.4751112" stroke="#000000" stroke-width="0.3"/>
+  <line x1="1258.08792" y1="570.4751112" x2="1252.08792" y2="576.4751112" stroke="#000000" stroke-width="0.3"/>
+  <text x="1255.08792" y="535" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="9" fill="#000" font-weight="bold">WC 6</text>
+  <text x="1255.08792" y="547" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7.5" fill="#333">26.3m²</text>
+  <path d="M 1091.28944 664.3764000000001 L 1085.28944 670.3764000000001 L 1097.28944 670.3764000000001 Z" fill="#000" stroke="none"/>
+  <text x="1100.28944" y="672.3764000000001" font-family="'Arial Narrow', Arial, sans-serif" font-size="8" fill="#000">+0.050</text>
+  <rect x="722.16036" y="395.62360000000007" width="219.44075999999998" height="282.7528" fill="white" stroke="none"/>
+  <rect x="722.16036" y="395.62360000000007" width="219.44075999999998" height="282.7528" fill="white" stroke="#000000" stroke-width="1"/>
+  <line x1="722.16036" y1="395.62360000000007" x2="941.6011199999999" y2="678.3764000000001" stroke="#000000" stroke-width="0.6"/>
+  <line x1="941.6011199999999" y1="395.62360000000007" x2="722.16036" y2="678.3764000000001" stroke="#000000" stroke-width="0.6"/>
+  <text x="831.88074" y="541" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7" fill="#000000">THÔNG TẦNG</text>
+  <text x="831.88074" y="535" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="9" fill="#000" font-weight="bold">Cầu thang</text>
+  <text x="831.88074" y="547" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7.5" fill="#333">16.4m²</text>
+  <polygon points="207.67,383.33 207.67,690.67 219.97,690.67 219.97,383.33" fill="url(#hatch-ext)" stroke="#000" stroke-width="1.4"/>
+  <line x1="207.67320000000004" y1="383.33000000000004" x2="207.67320000000004" y2="690.6700000000001" stroke="#000" stroke-width="1.5" stroke-linecap="square"/>
+  <line x1="219.96680000000006" y1="383.33000000000004" x2="219.96680000000006" y2="690.6700000000001" stroke="#000" stroke-width="1.5" stroke-linecap="square"/>
+  <polygon points="1437.03,383.33 1437.03,690.67 1449.33,690.67 1449.33,383.33" fill="url(#hatch-ext)" stroke="#000" stroke-width="1.4"/>
+  <line x1="1437.0331999999999" y1="383.33000000000004" x2="1437.0331999999999" y2="690.6700000000001" stroke="#000" stroke-width="1.5" stroke-linecap="square"/>
+  <line x1="1449.3267999999998" y1="383.33000000000004" x2="1449.3267999999998" y2="690.6700000000001" stroke="#000" stroke-width="1.5" stroke-linecap="square"/>
+  <polygon points="213.82,389.48 1443.18,389.48 1443.18,377.18 213.82,377.18" fill="url(#hatch-ext)" stroke="#000" stroke-width="1.4"/>
+  <line x1="213.82000000000005" y1="389.4768" x2="1443.1799999999998" y2="389.4768" stroke="#000" stroke-width="1.5" stroke-linecap="square"/>
+  <line x1="213.82000000000005" y1="377.18320000000006" x2="1443.1799999999998" y2="377.18320000000006" stroke="#000" stroke-width="1.5" stroke-linecap="square"/>
+  <polygon points="213.82,696.82 1443.18,696.82 1443.18,684.52 213.82,684.52" fill="url(#hatch-ext)" stroke="#000" stroke-width="1.4"/>
+  <line x1="213.82000000000005" y1="696.8168000000001" x2="1443.1799999999998" y2="696.8168000000001" stroke="#000" stroke-width="1.5" stroke-linecap="square"/>
+  <line x1="213.82000000000005" y1="684.5232000000001" x2="1443.1799999999998" y2="684.5232000000001" stroke="#000" stroke-width="1.5" stroke-linecap="square"/>
+  <polygon points="468.30,395.62 468.30,678.38 475.67,678.38 475.67,395.62" fill="url(#hatch-int)" stroke="#000" stroke-width="0.7"/>
+  <line x1="468.29752" y1="395.62360000000007" x2="468.29752" y2="678.3764" stroke="#000" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="475.67368000000005" y1="395.62360000000007" x2="475.67368000000005" y2="678.3764" stroke="#000" stroke-width="0.8" stroke-linecap="square"/>
+  <polygon points="709.25,395.62 709.25,678.38 716.63,678.38 716.63,395.62" fill="url(#hatch-int)" stroke="#000" stroke-width="0.7"/>
+  <line x1="709.25208" y1="395.62360000000007" x2="709.25208" y2="678.3764" stroke="#000" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="716.62824" y1="395.62360000000007" x2="716.62824" y2="678.3764" stroke="#000" stroke-width="0.8" stroke-linecap="square"/>
+  <polygon points="709.25,395.62 709.25,678.38 716.63,678.38 716.63,395.62" fill="url(#hatch-int)" stroke="#000" stroke-width="0.7"/>
+  <line x1="709.25208" y1="395.62360000000007" x2="709.25208" y2="678.3764" stroke="#000" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="716.62824" y1="395.62360000000007" x2="716.62824" y2="678.3764" stroke="#000" stroke-width="0.8" stroke-linecap="square"/>
+  <polygon points="937.91,395.62 937.91,678.38 945.29,678.38 945.29,395.62" fill="url(#hatch-int)" stroke="#000" stroke-width="0.7"/>
+  <line x1="937.91304" y1="395.62360000000007" x2="937.91304" y2="678.3764" stroke="#000" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="945.2892" y1="395.62360000000007" x2="945.2892" y2="678.3764" stroke="#000" stroke-width="0.8" stroke-linecap="square"/>
+  <polygon points="1068.23,395.62 1068.23,678.38 1075.60,678.38 1075.60,395.62" fill="url(#hatch-int)" stroke="#000" stroke-width="0.7"/>
+  <line x1="1068.2252000000003" y1="395.62360000000007" x2="1068.2252000000003" y2="678.3764" stroke="#000" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="1075.60136" y1="395.62360000000007" x2="1075.60136" y2="678.3764" stroke="#000" stroke-width="0.8" stroke-linecap="square"/>
+  <polygon points="937.91,395.62 937.91,678.38 945.29,678.38 945.29,395.62" fill="url(#hatch-int)" stroke="#000" stroke-width="0.7"/>
+  <line x1="937.91304" y1="395.62360000000007" x2="937.91304" y2="678.3764" stroke="#000" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="945.2892" y1="395.62360000000007" x2="945.2892" y2="678.3764" stroke="#000" stroke-width="0.8" stroke-linecap="square"/>
+  <polygon points="206.17,568.73 206.17,505.27 221.47,505.27 221.47,568.73" fill="white" stroke="none"/>
+  <polygon points="466.80,565.66 466.80,508.34 477.17,508.34 477.17,565.66" fill="white" stroke="none"/>
+  <polygon points="707.75,565.66 707.75,508.34 718.13,508.34 718.13,565.66" fill="white" stroke="none"/>
+  <polygon points="936.41,565.66 936.41,508.34 946.79,508.34 946.79,565.66" fill="white" stroke="none"/>
+  <rect x="212.82000000000005" y="483.2522" width="75.76159999999999" height="15.2936" fill="white" stroke="none"/>
+  <line x1="213.82000000000005" y1="487.899" x2="287.58160000000004" y2="487.899" stroke="#000000" stroke-width="2"/>
+  <line x1="213.82000000000005" y1="493.899" x2="287.58160000000004" y2="493.899" stroke="#000000" stroke-width="2"/>
+  <line x1="213.82000000000005" y1="487.899" x2="213.82000000000005" y2="493.899" stroke="#000000" stroke-width="1"/>
+  <line x1="287.58160000000004" y1="487.899" x2="287.58160000000004" y2="493.899" stroke="#000000" stroke-width="1"/>
+  <line x1="213.82000000000005" y1="487.899" x2="287.58160000000004" y2="493.899" stroke="#000000" stroke-width="0.5"/>
+  <line x1="287.58160000000004" y1="487.899" x2="213.82000000000005" y2="493.899" stroke="#000000" stroke-width="0.5"/>
+  <rect x="240.70080000000004" y="468.899" width="20" height="12" rx="2" fill="white" stroke="#000" stroke-width="0.5"/>
+  <text x="250.70080000000004" y="478.899" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7" fill="#000">S1</text>
+  <line x1="213.82000000000005" y1="506.266" x2="275.28800000000007" y2="506.266" stroke="#000000" stroke-width="2"/>
+  <line x1="213.82000000000005" y1="506.266" x2="213.82000000000005" y2="567.734" stroke="#000000" stroke-width="0.8"/>
+  <path d="M 213.82000000000005 567.734 A 61.467999999999996 61.467999999999996 0 0 1 275.28800000000007 506.266" fill="none" stroke="#000000" stroke-width="0.7"/>
+  <rect x="234.55400000000006" y="486.266" width="20" height="12" rx="2" fill="white" stroke="#000" stroke-width="0.5"/>
+  <text x="244.55400000000006" y="496.266" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7" fill="#000">D1</text>
+  <line x1="471.98560000000003" y1="509.3394" x2="527.3068000000001" y2="509.3394" stroke="#000000" stroke-width="2"/>
+  <line x1="471.98560000000003" y1="509.3394" x2="471.98560000000003" y2="564.6606" stroke="#000000" stroke-width="0.8"/>
+  <path d="M 471.98560000000003 564.6606 A 55.3212 55.3212 0 0 1 527.3068000000001 509.3394" fill="none" stroke="#000000" stroke-width="0.7"/>
+  <rect x="489.6462" y="489.3394" width="20" height="12" rx="2" fill="white" stroke="#000" stroke-width="0.5"/>
+  <text x="499.6462" y="499.3394" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7" fill="#000">D2</text>
+  <line x1="712.94016" y1="509.3394" x2="768.26136" y2="509.3394" stroke="#000000" stroke-width="2"/>
+  <line x1="712.94016" y1="509.3394" x2="712.94016" y2="564.6606" stroke="#000000" stroke-width="0.8"/>
+  <path d="M 712.94016 564.6606 A 55.3212 55.3212 0 0 1 768.26136 509.3394" fill="none" stroke="#000000" stroke-width="0.7"/>
+  <rect x="730.60076" y="489.3394" width="20" height="12" rx="2" fill="white" stroke="#000" stroke-width="0.5"/>
+  <text x="740.60076" y="499.3394" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7" fill="#000">D3</text>
+  <line x1="941.60112" y1="509.3394" x2="996.92232" y2="509.3394" stroke="#000000" stroke-width="2"/>
+  <line x1="941.60112" y1="509.3394" x2="941.60112" y2="564.6606" stroke="#000000" stroke-width="0.8"/>
+  <path d="M 941.60112 564.6606 A 55.3212 55.3212 0 0 1 996.92232 509.3394" fill="none" stroke="#000000" stroke-width="0.7"/>
+  <rect x="959.2617200000001" y="489.3394" width="20" height="12" rx="2" fill="white" stroke="#000" stroke-width="0.5"/>
+  <text x="969.2617200000001" y="499.3394" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7" fill="#000">D4</text>
+  <circle cx="1473.1799999999998" cy="413.33000000000004" r="16" fill="white" stroke="#000" stroke-width="1"/>
+  <path d="M 1473.1799999999998 400.33000000000004 L 1468.1799999999998 413.33000000000004 L 1473.1799999999998 408.33000000000004 L 1478.1799999999998 413.33000000000004 Z" fill="#000" stroke="none"/>
+  <path d="M 1473.1799999999998 426.33000000000004 L 1468.1799999999998 413.33000000000004 L 1473.1799999999998 418.33000000000004 L 1478.1799999999998 413.33000000000004 Z" fill="white" stroke="#000" stroke-width="0.6"/>
+  <text x="1473.1799999999998" y="393.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="9" fill="#000" font-weight="bold">N</text>
+  <rect x="213.82000000000005" y="383.33000000000004" width="1229.36" height="307.34" fill="none" stroke="#000000" stroke-width="2"/>
+  <line x1="213.82000000000005" y1="692.6700000000001" x2="213.82000000000005" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="226.11360000000005" y1="692.6700000000001" x2="226.11360000000005" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="213.82000000000005" y1="710.6700000000001" x2="226.11360000000005" y2="710.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="211.82000000000005" y1="714.6700000000001" x2="215.82000000000005" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="224.11360000000005" y1="714.6700000000001" x2="228.11360000000005" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="219.96680000000003" y="705.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">200</text>
+  <line x1="226.11360000000005" y1="692.6700000000001" x2="226.11360000000005" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="471.98560000000003" y1="692.6700000000001" x2="471.98560000000003" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="226.11360000000005" y1="710.6700000000001" x2="471.98560000000003" y2="710.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="224.11360000000005" y1="714.6700000000001" x2="228.11360000000005" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="469.98560000000003" y1="714.6700000000001" x2="473.98560000000003" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="349.04960000000005" y="705.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">4000</text>
+  <line x1="471.98560000000003" y1="692.6700000000001" x2="471.98560000000003" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="479.36176000000006" y1="692.6700000000001" x2="479.36176000000006" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="471.98560000000003" y1="710.6700000000001" x2="479.36176000000006" y2="710.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="469.98560000000003" y1="714.6700000000001" x2="473.98560000000003" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="477.36176000000006" y1="714.6700000000001" x2="481.36176000000006" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="475.67368000000005" y="705.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">120</text>
+  <line x1="479.36176000000006" y1="692.6700000000001" x2="479.36176000000006" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="712.94016" y1="692.6700000000001" x2="712.94016" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="479.36176000000006" y1="710.6700000000001" x2="712.94016" y2="710.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="477.36176000000006" y1="714.6700000000001" x2="481.36176000000006" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="710.94016" y1="714.6700000000001" x2="714.94016" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="596.15096" y="705.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">3800</text>
+  <line x1="712.94016" y1="692.6700000000001" x2="712.94016" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="720.31632" y1="692.6700000000001" x2="720.31632" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="712.94016" y1="710.6700000000001" x2="720.31632" y2="710.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="710.94016" y1="714.6700000000001" x2="714.94016" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="718.31632" y1="714.6700000000001" x2="722.31632" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="716.62824" y="705.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">120</text>
+  <line x1="722.16036" y1="692.6700000000001" x2="722.16036" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="941.60112" y1="692.6700000000001" x2="941.60112" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="722.16036" y1="710.6700000000001" x2="941.60112" y2="710.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="720.16036" y1="714.6700000000001" x2="724.16036" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="939.60112" y1="714.6700000000001" x2="943.60112" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="831.8807400000001" y="705.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">3570</text>
+  <line x1="941.60112" y1="692.6700000000001" x2="941.60112" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="948.9772800000001" y1="692.6700000000001" x2="948.9772800000001" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="941.60112" y1="710.6700000000001" x2="948.9772800000001" y2="710.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="939.60112" y1="714.6700000000001" x2="943.60112" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="946.9772800000001" y1="714.6700000000001" x2="950.9772800000001" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="945.2892" y="705.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">120</text>
+  <line x1="948.9772800000001" y1="692.6700000000001" x2="948.9772800000001" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1071.9132800000002" y1="692.6700000000001" x2="1071.9132800000002" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="948.9772800000001" y1="710.6700000000001" x2="1071.9132800000002" y2="710.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="946.9772800000001" y1="714.6700000000001" x2="950.9772800000001" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1069.9132800000002" y1="714.6700000000001" x2="1073.9132800000002" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="1010.4452800000001" y="705.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">2000</text>
+  <line x1="1071.9132800000002" y1="692.6700000000001" x2="1071.9132800000002" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1079.28944" y1="692.6700000000001" x2="1079.28944" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1071.9132800000002" y1="710.6700000000001" x2="1079.28944" y2="710.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="1069.9132800000002" y1="714.6700000000001" x2="1073.9132800000002" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1077.28944" y1="714.6700000000001" x2="1081.28944" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="1075.60136" y="705.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">120</text>
+  <line x1="1079.28944" y1="692.6700000000001" x2="1079.28944" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1430.8863999999999" y1="692.6700000000001" x2="1430.8863999999999" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1079.28944" y1="710.6700000000001" x2="1430.8863999999999" y2="710.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="1077.28944" y1="714.6700000000001" x2="1081.28944" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1428.8863999999999" y1="714.6700000000001" x2="1432.8863999999999" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="1255.08792" y="705.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">5720</text>
+  <line x1="1430.8863999999999" y1="692.6700000000001" x2="1430.8863999999999" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1443.1799999999998" y1="692.6700000000001" x2="1443.1799999999998" y2="712.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1430.8863999999999" y1="710.6700000000001" x2="1443.1799999999998" y2="710.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="1428.8863999999999" y1="714.6700000000001" x2="1432.8863999999999" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1441.1799999999998" y1="714.6700000000001" x2="1445.1799999999998" y2="706.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="1437.0331999999999" y="705.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">200</text>
+  <line x1="213.82000000000005" y1="692.6700000000001" x2="213.82000000000005" y2="734.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="226.11360000000005" y1="692.6700000000001" x2="226.11360000000005" y2="734.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="213.82000000000005" y1="732.6700000000001" x2="226.11360000000005" y2="732.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="211.82000000000005" y1="736.6700000000001" x2="215.82000000000005" y2="728.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="224.11360000000005" y1="736.6700000000001" x2="228.11360000000005" y2="728.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="219.96680000000003" y="727.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">200</text>
+  <line x1="226.11360000000005" y1="692.6700000000001" x2="226.11360000000005" y2="734.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="479.36176000000006" y1="692.6700000000001" x2="479.36176000000006" y2="734.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="226.11360000000005" y1="732.6700000000001" x2="479.36176000000006" y2="732.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="224.11360000000005" y1="736.6700000000001" x2="228.11360000000005" y2="728.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="477.36176000000006" y1="736.6700000000001" x2="481.36176000000006" y2="728.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="352.73768000000007" y="727.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">4120</text>
+  <line x1="479.36176000000006" y1="692.6700000000001" x2="479.36176000000006" y2="734.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="720.31632" y1="692.6700000000001" x2="720.31632" y2="734.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="479.36176000000006" y1="732.6700000000001" x2="720.31632" y2="732.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="477.36176000000006" y1="736.6700000000001" x2="481.36176000000006" y2="728.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="718.31632" y1="736.6700000000001" x2="722.31632" y2="728.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="599.8390400000001" y="727.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">3920</text>
+  <line x1="720.31632" y1="692.6700000000001" x2="720.31632" y2="734.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="948.9772800000001" y1="692.6700000000001" x2="948.9772800000001" y2="734.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="720.31632" y1="732.6700000000001" x2="948.9772800000001" y2="732.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="718.31632" y1="736.6700000000001" x2="722.31632" y2="728.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="946.9772800000001" y1="736.6700000000001" x2="950.9772800000001" y2="728.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="834.6468" y="727.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">3720</text>
+  <line x1="948.9772800000001" y1="692.6700000000001" x2="948.9772800000001" y2="734.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1079.28944" y1="692.6700000000001" x2="1079.28944" y2="734.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="948.9772800000001" y1="732.6700000000001" x2="1079.28944" y2="732.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="946.9772800000001" y1="736.6700000000001" x2="950.9772800000001" y2="728.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1077.28944" y1="736.6700000000001" x2="1081.28944" y2="728.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="1014.13336" y="727.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">2120</text>
+  <line x1="1079.28944" y1="692.6700000000001" x2="1079.28944" y2="734.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1443.1799999999998" y1="692.6700000000001" x2="1443.1799999999998" y2="734.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1079.28944" y1="732.6700000000001" x2="1443.1799999999998" y2="732.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="1077.28944" y1="736.6700000000001" x2="1081.28944" y2="728.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1441.1799999999998" y1="736.6700000000001" x2="1445.1799999999998" y2="728.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="1261.23472" y="727.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">5920</text>
+  <line x1="213.82000000000005" y1="692.6700000000001" x2="213.82000000000005" y2="756.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1443.1799999999998" y1="692.6700000000001" x2="1443.1799999999998" y2="756.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="213.82000000000005" y1="754.6700000000001" x2="1443.1799999999998" y2="754.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="211.82000000000005" y1="758.6700000000001" x2="215.82000000000005" y2="750.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1441.1799999999998" y1="758.6700000000001" x2="1445.1799999999998" y2="750.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="828.5" y="749.6700000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">20000</text>
+  <line x1="211.82000000000005" y1="383.33000000000004" x2="191.82000000000005" y2="383.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="211.82000000000005" y1="395.62360000000007" x2="191.82000000000005" y2="395.62360000000007" stroke="#000000" stroke-width="0.35"/>
+  <line x1="193.82000000000005" y1="383.33000000000004" x2="193.82000000000005" y2="395.62360000000007" stroke="#000000" stroke-width="0.5"/>
+  <line x1="189.82000000000005" y1="385.33000000000004" x2="197.82000000000005" y2="381.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="189.82000000000005" y1="397.62360000000007" x2="197.82000000000005" y2="393.62360000000007" stroke="#000000" stroke-width="0.8"/>
+  <text x="185.82000000000005" y="389.4768" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7.5" fill="#000000" transform="rotate(-90, 185.82000000000005, 389.4768)">200</text>
+  <line x1="211.82000000000005" y1="395.62360000000007" x2="191.82000000000005" y2="395.62360000000007" stroke="#000000" stroke-width="0.35"/>
+  <line x1="211.82000000000005" y1="678.3764" x2="191.82000000000005" y2="678.3764" stroke="#000000" stroke-width="0.35"/>
+  <line x1="193.82000000000005" y1="395.62360000000007" x2="193.82000000000005" y2="678.3764" stroke="#000000" stroke-width="0.5"/>
+  <line x1="189.82000000000005" y1="397.62360000000007" x2="197.82000000000005" y2="393.62360000000007" stroke="#000000" stroke-width="0.8"/>
+  <line x1="189.82000000000005" y1="680.3764" x2="197.82000000000005" y2="676.3764" stroke="#000000" stroke-width="0.8"/>
+  <text x="185.82000000000005" y="537" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7.5" fill="#000000" transform="rotate(-90, 185.82000000000005, 537)">4600</text>
+  <line x1="211.82000000000005" y1="678.3764" x2="191.82000000000005" y2="678.3764" stroke="#000000" stroke-width="0.35"/>
+  <line x1="211.82000000000005" y1="690.6700000000001" x2="191.82000000000005" y2="690.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="193.82000000000005" y1="678.3764" x2="193.82000000000005" y2="690.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="189.82000000000005" y1="680.3764" x2="197.82000000000005" y2="676.3764" stroke="#000000" stroke-width="0.8"/>
+  <line x1="189.82000000000005" y1="692.6700000000001" x2="197.82000000000005" y2="688.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="185.82000000000005" y="684.5232000000001" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7.5" fill="#000000" transform="rotate(-90, 185.82000000000005, 684.5232000000001)">200</text>
+  <line x1="211.82000000000005" y1="383.33000000000004" x2="169.82000000000005" y2="383.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="211.82000000000005" y1="690.6700000000001" x2="169.82000000000005" y2="690.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="171.82000000000005" y1="383.33000000000004" x2="171.82000000000005" y2="690.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="167.82000000000005" y1="385.33000000000004" x2="175.82000000000005" y2="381.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="167.82000000000005" y1="692.6700000000001" x2="175.82000000000005" y2="688.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="163.82000000000005" y="537" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7.5" fill="#000000" transform="rotate(-90, 163.82000000000005, 537)">5000</text>
+  <line x1="211.82000000000005" y1="383.33000000000004" x2="147.82000000000005" y2="383.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="211.82000000000005" y1="690.6700000000001" x2="147.82000000000005" y2="690.6700000000001" stroke="#000000" stroke-width="0.35"/>
+  <line x1="149.82000000000005" y1="383.33000000000004" x2="149.82000000000005" y2="690.6700000000001" stroke="#000000" stroke-width="0.5"/>
+  <line x1="145.82000000000005" y1="385.33000000000004" x2="153.82000000000005" y2="381.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="145.82000000000005" y1="692.6700000000001" x2="153.82000000000005" y2="688.6700000000001" stroke="#000000" stroke-width="0.8"/>
+  <text x="141.82000000000005" y="537" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="7.5" fill="#000000" transform="rotate(-90, 141.82000000000005, 537)">5000</text>
+  <line x1="213.82000000000005" y1="381.33000000000004" x2="213.82000000000005" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="226.11360000000005" y1="381.33000000000004" x2="226.11360000000005" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="213.82000000000005" y1="363.33000000000004" x2="226.11360000000005" y2="363.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="211.82000000000005" y1="367.33000000000004" x2="215.82000000000005" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="224.11360000000005" y1="367.33000000000004" x2="228.11360000000005" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="219.96680000000003" y="376.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">200</text>
+  <line x1="226.11360000000005" y1="381.33000000000004" x2="226.11360000000005" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="471.98560000000003" y1="381.33000000000004" x2="471.98560000000003" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="226.11360000000005" y1="363.33000000000004" x2="471.98560000000003" y2="363.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="224.11360000000005" y1="367.33000000000004" x2="228.11360000000005" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="469.98560000000003" y1="367.33000000000004" x2="473.98560000000003" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="349.04960000000005" y="376.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">4000</text>
+  <line x1="471.98560000000003" y1="381.33000000000004" x2="471.98560000000003" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="479.36176000000006" y1="381.33000000000004" x2="479.36176000000006" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="471.98560000000003" y1="363.33000000000004" x2="479.36176000000006" y2="363.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="469.98560000000003" y1="367.33000000000004" x2="473.98560000000003" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="477.36176000000006" y1="367.33000000000004" x2="481.36176000000006" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="475.67368000000005" y="376.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">120</text>
+  <line x1="479.36176000000006" y1="381.33000000000004" x2="479.36176000000006" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="712.94016" y1="381.33000000000004" x2="712.94016" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="479.36176000000006" y1="363.33000000000004" x2="712.94016" y2="363.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="477.36176000000006" y1="367.33000000000004" x2="481.36176000000006" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="710.94016" y1="367.33000000000004" x2="714.94016" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="596.15096" y="376.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">3800</text>
+  <line x1="712.94016" y1="381.33000000000004" x2="712.94016" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="720.31632" y1="381.33000000000004" x2="720.31632" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="712.94016" y1="363.33000000000004" x2="720.31632" y2="363.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="710.94016" y1="367.33000000000004" x2="714.94016" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="718.31632" y1="367.33000000000004" x2="722.31632" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="716.62824" y="376.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">120</text>
+  <line x1="722.16036" y1="381.33000000000004" x2="722.16036" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="941.60112" y1="381.33000000000004" x2="941.60112" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="722.16036" y1="363.33000000000004" x2="941.60112" y2="363.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="720.16036" y1="367.33000000000004" x2="724.16036" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="939.60112" y1="367.33000000000004" x2="943.60112" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="831.8807400000001" y="376.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">3570</text>
+  <line x1="941.60112" y1="381.33000000000004" x2="941.60112" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="948.9772800000001" y1="381.33000000000004" x2="948.9772800000001" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="941.60112" y1="363.33000000000004" x2="948.9772800000001" y2="363.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="939.60112" y1="367.33000000000004" x2="943.60112" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="946.9772800000001" y1="367.33000000000004" x2="950.9772800000001" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="945.2892" y="376.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">120</text>
+  <line x1="948.9772800000001" y1="381.33000000000004" x2="948.9772800000001" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1071.9132800000002" y1="381.33000000000004" x2="1071.9132800000002" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="948.9772800000001" y1="363.33000000000004" x2="1071.9132800000002" y2="363.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="946.9772800000001" y1="367.33000000000004" x2="950.9772800000001" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1069.9132800000002" y1="367.33000000000004" x2="1073.9132800000002" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="1010.4452800000001" y="376.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">2000</text>
+  <line x1="1071.9132800000002" y1="381.33000000000004" x2="1071.9132800000002" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1079.28944" y1="381.33000000000004" x2="1079.28944" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1071.9132800000002" y1="363.33000000000004" x2="1079.28944" y2="363.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="1069.9132800000002" y1="367.33000000000004" x2="1073.9132800000002" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1077.28944" y1="367.33000000000004" x2="1081.28944" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="1075.60136" y="376.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">120</text>
+  <line x1="1079.28944" y1="381.33000000000004" x2="1079.28944" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1430.8863999999999" y1="381.33000000000004" x2="1430.8863999999999" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1079.28944" y1="363.33000000000004" x2="1430.8863999999999" y2="363.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="1077.28944" y1="367.33000000000004" x2="1081.28944" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1428.8863999999999" y1="367.33000000000004" x2="1432.8863999999999" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="1255.08792" y="376.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">5720</text>
+  <line x1="1430.8863999999999" y1="381.33000000000004" x2="1430.8863999999999" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1443.1799999999998" y1="381.33000000000004" x2="1443.1799999999998" y2="361.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1430.8863999999999" y1="363.33000000000004" x2="1443.1799999999998" y2="363.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="1428.8863999999999" y1="367.33000000000004" x2="1432.8863999999999" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1441.1799999999998" y1="367.33000000000004" x2="1445.1799999999998" y2="359.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="1437.0331999999999" y="376.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">200</text>
+  <line x1="213.82000000000005" y1="381.33000000000004" x2="213.82000000000005" y2="339.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="226.11360000000005" y1="381.33000000000004" x2="226.11360000000005" y2="339.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="213.82000000000005" y1="341.33000000000004" x2="226.11360000000005" y2="341.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="211.82000000000005" y1="345.33000000000004" x2="215.82000000000005" y2="337.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="224.11360000000005" y1="345.33000000000004" x2="228.11360000000005" y2="337.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="219.96680000000003" y="354.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">200</text>
+  <line x1="226.11360000000005" y1="381.33000000000004" x2="226.11360000000005" y2="339.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="479.36176000000006" y1="381.33000000000004" x2="479.36176000000006" y2="339.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="226.11360000000005" y1="341.33000000000004" x2="479.36176000000006" y2="341.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="224.11360000000005" y1="345.33000000000004" x2="228.11360000000005" y2="337.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="477.36176000000006" y1="345.33000000000004" x2="481.36176000000006" y2="337.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="352.73768000000007" y="354.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">4120</text>
+  <line x1="479.36176000000006" y1="381.33000000000004" x2="479.36176000000006" y2="339.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="720.31632" y1="381.33000000000004" x2="720.31632" y2="339.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="479.36176000000006" y1="341.33000000000004" x2="720.31632" y2="341.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="477.36176000000006" y1="345.33000000000004" x2="481.36176000000006" y2="337.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="718.31632" y1="345.33000000000004" x2="722.31632" y2="337.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="599.8390400000001" y="354.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">3920</text>
+  <line x1="720.31632" y1="381.33000000000004" x2="720.31632" y2="339.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="948.9772800000001" y1="381.33000000000004" x2="948.9772800000001" y2="339.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="720.31632" y1="341.33000000000004" x2="948.9772800000001" y2="341.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="718.31632" y1="345.33000000000004" x2="722.31632" y2="337.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="946.9772800000001" y1="345.33000000000004" x2="950.9772800000001" y2="337.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="834.6468" y="354.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">3720</text>
+  <line x1="948.9772800000001" y1="381.33000000000004" x2="948.9772800000001" y2="339.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1079.28944" y1="381.33000000000004" x2="1079.28944" y2="339.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="948.9772800000001" y1="341.33000000000004" x2="1079.28944" y2="341.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="946.9772800000001" y1="345.33000000000004" x2="950.9772800000001" y2="337.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1077.28944" y1="345.33000000000004" x2="1081.28944" y2="337.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="1014.13336" y="354.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">2120</text>
+  <line x1="1079.28944" y1="381.33000000000004" x2="1079.28944" y2="339.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1443.1799999999998" y1="381.33000000000004" x2="1443.1799999999998" y2="339.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1079.28944" y1="341.33000000000004" x2="1443.1799999999998" y2="341.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="1077.28944" y1="345.33000000000004" x2="1081.28944" y2="337.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1441.1799999999998" y1="345.33000000000004" x2="1445.1799999999998" y2="337.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="1261.23472" y="354.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">5920</text>
+  <line x1="213.82000000000005" y1="381.33000000000004" x2="213.82000000000005" y2="317.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="1443.1799999999998" y1="381.33000000000004" x2="1443.1799999999998" y2="317.33000000000004" stroke="#000000" stroke-width="0.35"/>
+  <line x1="213.82000000000005" y1="319.33000000000004" x2="1443.1799999999998" y2="319.33000000000004" stroke="#000000" stroke-width="0.5"/>
+  <line x1="211.82000000000005" y1="323.33000000000004" x2="215.82000000000005" y2="315.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <line x1="1441.1799999999998" y1="323.33000000000004" x2="1445.1799999999998" y2="315.33000000000004" stroke="#000000" stroke-width="0.8"/>
+  <text x="828.5" y="332.33000000000004" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000000">20000</text>
+  <line x1="141.82000000000005" y1="537" x2="1515.1799999999998" y2="537" stroke="#000" stroke-width="0.8" stroke-dasharray="12 3 3 3"/>
+  <circle cx="141.82000000000005" cy="537" r="10" fill="white" stroke="#000" stroke-width="1"/>
+  <text x="141.82000000000005" y="541" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000" font-weight="bold">A</text>
+  <circle cx="1515.1799999999998" cy="537" r="10" fill="white" stroke="#000" stroke-width="1"/>
+  <text x="1515.1799999999998" y="541" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="10" fill="#000" font-weight="bold">A</text>
+  <path d="M 127.82000000000005 534 L 127.82000000000005 540 L 130.82000000000005 537 Z" fill="#000" stroke="none"/>
+  <path d="M 1529.1799999999998 534 L 1529.1799999999998 540 L 1526.1799999999998 537 Z" fill="#000" stroke="none"/>
+  <text x="828.5" y="1100" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="18" fill="#000000" font-weight="bold" letter-spacing="2">MẶT BẰNG LẦU 2</text>
+  <text x="828.5" y="1116" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="13" fill="#000000">TL: 1/61 (xoay 90°)</text>
+  <text x="8" y="1120" font-family="'Arial Narrow', Arial, sans-serif" font-size="7" fill="#888888">⚠ Tầng 1: Bếp/Ăn "Phòng ăn" diện tích 6m² — tiêu chuẩn ≥12m² (3×4m). | Tầng 1: Hố thang "Cầu thang" (1.2×2.5m) hơi nhỏ cho thang U-shape — khuyến nghị ≥2.1×3.5m.</text>
+</svg>
